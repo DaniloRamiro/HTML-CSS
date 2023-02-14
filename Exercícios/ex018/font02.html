@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url('Fontes/Filxgirl.TTF') format('truetype'), url('Fontes/Lovebeat.otf')format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* 
+            Tipos de format:
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - SVG
+            */
+        }
+        body {
+              font-family: 'Love', 'Courier New', Courier, monospace;
+              font-weight: normal;
+        }
+        h1 {
+              font-family: 'love', 'Times New Roman', Times, serif;
+              font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes externas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora temporibus recusandae, vel sapiente deleniti illo labore voluptates beatae architecto corporis nam ad reprehenderit ullam nihil mollitia distinctio asperiores odio consequatur?</p>
+    <p><a href="font01.html" target="_blank">Clique aqui</a> para acessar outra página</p>
+</body>
+</html>
